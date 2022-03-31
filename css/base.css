@@ -127,6 +127,10 @@ a:hover {
     border: 10px;
 }
 
+div {
+    display: block;
+}
+
 form {
     margin: 40px 0;
 }
