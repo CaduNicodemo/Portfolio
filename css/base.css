@@ -150,7 +150,7 @@ form legend {
 }
 
 .enviar {
-    width: 40%;
+    width: 50%;
     padding: 15px 0;
     background: rgb(33, 33, 33);
     color: white;
@@ -164,5 +164,4 @@ form legend {
 
 .enviar:hover {
     background: goldenrod;
-    transform: scale(120%);
 }
