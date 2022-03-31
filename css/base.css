@@ -1,0 +1,110 @@
+body {
+    background-image: url('../img/fundo.jpg');
+    background-size: auto 100vh;
+    font-family: Arial;
+    height: 100vh;
+    font-size: 12px;
+}
+
+@media (min-width: 400px) {
+    body {
+        font-size: 14px;
+        background-size: cover;
+    }
+}
+
+@media (min-width: 600px) {
+    body {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 1200px) {
+    body {
+        font-size: 20px;
+        background-image: url('../img/fundo1200.jpg');
+        background-size: cover;
+    }
+}
+
+header {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu {
+    background-color: white;
+    position: fixed;
+    width: 100vw;
+    top: 0;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    list-style: none;
+}
+
+.menu a {
+    display: block;
+    padding: 10px 20px;
+    font-family: 'Comfortaa', cursive;
+    font-size: 500;
+}
+
+a {
+    color: teal;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-subtitle,
+.site-title {
+    color: whitesmoke;
+    text-align: center;
+    padding: 1rem;
+}
+
+.site-title {
+    font-size: 4em;
+    font-family: 'Rock Salt', cursive;
+}
+
+.site-subtitle {
+    font-style: italic;
+}
+
+.portifolio {
+    font-family: 'Comfortaa', cursive;
+}
+
+.img-portfolio {
+    max-height: 200px;
+    width: auto;
+    padding: 20px;
+}
+
+.jogos {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    display: inline-flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    align-content: center;
+}
+
+.figcaption {
+    border: 10px;
+}
