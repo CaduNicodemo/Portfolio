@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     background-image: url('../img/fundo.jpg');
     background-size: auto 100vh;
@@ -71,6 +75,7 @@ a:hover {
     color: whitesmoke;
     text-align: center;
     padding: 1rem;
+    align-items: center;
 }
 
 .site-title {
@@ -80,6 +85,13 @@ a:hover {
 
 .site-subtitle {
     font-style: italic;
+}
+
+.subpage-header {
+    max-height: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .portifolio {
