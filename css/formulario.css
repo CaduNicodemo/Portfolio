@@ -60,4 +60,5 @@ entre os rótulos e seus campos de texto*/
 .side-menu {
     display: flex;
     align-content: flex-end;
+    padding: auto;
 }
