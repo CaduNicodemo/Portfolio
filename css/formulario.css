@@ -56,3 +56,8 @@ button {
 entre os rótulos e seus campos de texto*/
     margin-left: .5em;
 }
+
+.side-menu {
+    display: flex;
+    align-content: flex-end;
+}
