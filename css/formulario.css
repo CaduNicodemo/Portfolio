@@ -57,8 +57,15 @@ entre os rótulos e seus campos de texto*/
     margin-left: .5em;
 }
 
-.side-menu {
+.menu-projeto {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 900;
     display: flex;
-    align-content: flex-end;
-    padding: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+    align-content: center;
 }
