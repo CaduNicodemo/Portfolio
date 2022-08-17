@@ -24,28 +24,27 @@
         </nav>
     </header>
     <main>
-        <section class="menu-projeto">
-            <nav class="left__menu">
-                <h1 class="project__label">Menu</h1>
-                <ul>
-                    <li class="left__menu--list">
-                        <a href="#">
-                            <img src="Images/editor_icon_focus.svg" alt="Acessar editor">
-                            <span id="editor">Editor de código</span>
-                        </a>
-                    </li>
-                    <li class="left__menu--list">
-                        <a class="community__icon" href="community.html">
-                            <img src="Images/community_icon.svg" alt="Acessar comunidade">
-                            <span id="community" style="opacity: 0.56">Comunidade</span>
-                        </a>
-                    </li>
-                </ul>
-
-                <div>
-                    <h1 class="site-title">Cadu Nicodemo</h1>
-                    <h2 class="site-subtitle">jr. frontend developer</h2>
+        <section class="editor container">
+            <!-- EDITOR DE CÓDIGOS / ÁREA CENTRAL -->
+            <div>
+                <div class="editor__box" id="editor__box" style="background: #6bd1ff;">
+                    <div class="editor__border" id="editor__border">
+                        <img src="Images/mac_buttons.svg" alt="Botões do Mac">
+                        <div class="editor__code js-codearea" contenteditable="true">
+                            <code class="hljs" aria-label="Editor de código">
+                                    Escreva aqui o seu código
+                                    Selecione uma linguagem
+                                    Clique em "Visualizar com o Highlight"
+                                    Salve seu projeto e visualize-o na página da Comunidade
+                                    Você também pode escolher a cor da borda do seu card.
+                                    Enjoy!
+                                </code>
+                        </div>
+                        </img>
+                    </div>
                 </div>
+                <button class="editor__button button js-preview">Visualizar com o Highlight</button>
+            </div>
     </main>
 </body>
 
