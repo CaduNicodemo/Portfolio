@@ -13,7 +13,7 @@
     <title>Editor - Cadu Nicodemo</title>
 </head>
 
-<body>
+<body spellcheck="false">
     <header class="pagina">
         <nav class="menu">
             <ul>
@@ -23,32 +23,30 @@
             </ul>
         </nav>
     </header>
-    <div class="menu-projeto">
-        <p>SEU PROJETO</p>
-        <form class="side-menu" action="/seu-projeto" method="post"></form>
-        <input type="text" name="Nome do seu projeto" id="Nome_projeto" placeholder="Nome do seu projeto">
-        <div>
-            <input type="text" name="Descricao do seu projeto" id="Descricao_projeto" placeholder="Descrição do seu projeto">
-        </div>
-    </div>
-    <div class="menu-projeto">
-        <p>PERSONALIZAÇÃO</p>
-        <form class="side-menu" action="/personaliza-projeto" method="post"></form>
-        <select name="linguagem" id="linguagem">
-            javaScript
-        </select>
-        <div>
-            <select name="color" id="color">
-        </select>
-        </div>
-        <div>
-            <button type="submit">Salvar Projeto</button>
-        </div>
-    </div>
-    <div>
-        <h1 class="site-title">Cadu Nicodemo</h1>
-        <h2 class="site-subtitle">jr. frontend developer</h2>
-    </div>
+    <main>
+        <section class="menu-projeto">
+            <nav class="left__menu">
+                <h1 class="project__label">Menu</h1>
+                <ul>
+                    <li class="left__menu--list">
+                        <a href="#">
+                            <img src="Images/editor_icon_focus.svg" alt="Acessar editor">
+                            <span id="editor">Editor de código</span>
+                        </a>
+                    </li>
+                    <li class="left__menu--list">
+                        <a class="community__icon" href="community.html">
+                            <img src="Images/community_icon.svg" alt="Acessar comunidade">
+                            <span id="community" style="opacity: 0.56">Comunidade</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div>
+                    <h1 class="site-title">Cadu Nicodemo</h1>
+                    <h2 class="site-subtitle">jr. frontend developer</h2>
+                </div>
+    </main>
 </body>
 
 </html>
