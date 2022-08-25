@@ -13,6 +13,9 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
 }
 
 .principal {
@@ -25,8 +28,6 @@ body {
     height: 100vh;
     display: grid;
     grid-template-columns: 50% 50%;
-    font-family: 'Inter', sans-serif;
-    ;
 }
 
 .container__botao {
