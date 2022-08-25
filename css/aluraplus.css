@@ -42,6 +42,7 @@ body {
     color: var(--branco-principal);
     display: block;
     text-decoration: none;
+    margin-bottom: 1em;
 }
 
 .botao_secundario {
@@ -53,4 +54,12 @@ body {
     color: var(--cinza-secundario);
     font-size: 12px;
     text-align: center;
+}
+
+.container__imagem {
+    margin: 1em 0 2em 0;
+}
+
+.container__caixa {
+    margin: 0 6em;
 }
