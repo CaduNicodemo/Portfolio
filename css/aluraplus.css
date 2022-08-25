@@ -23,6 +23,10 @@ body {
 
 .container {
     height: 100vh;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    font-family: 'Inter', sans-serif;
+    ;
 }
 
 .container__botao {
@@ -31,4 +35,14 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+}
+
+.botao_secundario {
+    background-color: transparent;
+    border: 2px solid var(--branco-principal);
+}
+
+.container__aviso {
+    color: var(--cinza-secundario);
+    font-size: 0.5em;
 }
