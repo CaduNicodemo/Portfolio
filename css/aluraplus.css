@@ -45,5 +45,5 @@ body {
 
 .container__aviso {
     color: var(--cinza-secundario);
-    font-size: 0.5em;
+    font-size: 12px;
 }
