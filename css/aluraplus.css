@@ -16,7 +16,7 @@ body {
 }
 
 .principal {
-    background-image: url("aluraplus-img/Background.png");
+    background-image: url("../aluraplus-img/Background.png");
     background-repeat: no-repeat;
     background-size: contain;
 }
