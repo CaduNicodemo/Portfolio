@@ -100,7 +100,3 @@ body {
     display: grid;
     grid-template-columns: 30% 30% 30%;
 }
-
-.acesso__imagem {
-    width: 30%;
-}
