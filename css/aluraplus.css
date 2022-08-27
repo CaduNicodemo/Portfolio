@@ -100,3 +100,10 @@ body {
     display: grid;
     grid-template-columns: 30% 30% 30%;
 }
+
+.descricao__modo {
+    font-weight: 700;
+    font-size: 32px;
+    color: var(--branco-principal);
+    margin-bottom: 0.1em;
+}
