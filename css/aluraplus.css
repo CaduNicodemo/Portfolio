@@ -95,3 +95,8 @@ body {
 .container__descricao {
     padding: 2em;
 }
+
+.modos_de_acesso {
+    display: grid;
+    grid-template-columns: 30% 30% 30%;
+}
