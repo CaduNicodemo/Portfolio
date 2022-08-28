@@ -1,2 +1,1 @@
-# Imersao-CSS
-Site com HTML e CSS
+Site pessoal com projetos desenvolvidos em cursos.
