@@ -99,6 +99,7 @@ body {
 .modos_de_acesso {
     display: grid;
     grid-template-columns: 30% 30% 30%;
+    align-items: center;
 }
 
 .descricao__modo {
@@ -106,4 +107,5 @@ body {
     font-size: 32px;
     color: var(--branco-principal);
     margin-bottom: 0.1em;
+    text-align: center;
 }
