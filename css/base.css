@@ -110,7 +110,7 @@ a:hover {
     padding: 20px;
 }
 
-.jogos {
+.jogos__lista {
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
     font-weight: 900;
@@ -121,6 +121,12 @@ a:hover {
     align-items: center;
     padding: 10px;
     align-content: center;
+}
+
+.jogos__item {
+    margin: 1em;
+    padding: 1em;
+    text-align: center;
 }
 
 .projetos__lista {
@@ -129,13 +135,30 @@ a:hover {
     font-weight: 900;
     display: inline-flex;
     flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     padding: 10px;
     align-content: center;
+    width: 100%;
 }
 
-.figcaption {
-    border: 10px;
+.projetos__item {
+    margin: 3em;
+    padding: 2em;
+    text-align: center;
+}
+
+.projetos__img {
+    max-height: 20vw;
+    padding: 0 1em;
+}
+
+.projetos__titulo {
+    padding: 0.5em;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+.jogos__img {
+    max-width: 20vw;
 }
