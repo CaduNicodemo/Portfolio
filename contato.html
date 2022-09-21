@@ -16,7 +16,7 @@
 </head>
 
 <body>
-    <header class="pagina">
+    <header class="header__contato">
         <nav class="menu">
             <ul>
                 <li><a href="index.html">Sobre</a></li>
@@ -24,29 +24,26 @@
                 <li><a href="jogos.html">Jogos</a></li>
             </ul>
         </nav>
+        <div class="title">
+            <h1 class="site-title">Cadu Nicodemo</h1>
+            <h2 class="subtitle">jr. frontend developer</h2>
+        </div>
+
     </header>
-    <div>
-        <h1 class="site-title">Cadu Nicodemo</h1>
-        <h2 class="site-subtitle">jr. frontend developer</h2>
+    <div class="form">
         <form action="/formulario-contato" method="post">
-            <div>
-                <label for="nome">Nome:</label>
-                <input type="texto" name="nome_usuario" id="nome">
-            </div>
-            <div>
-                <label for="email">E-mail:</label>
-                <input type="email" name="email_usuario" id="email">
-            </div>
-            <div>
-                <label for="texto">Texto:</label>
-                <textarea name="texto_usuario" id="texto"></textarea>
-            </div>
-            <div class="button">
-                <button type="submit">Enviar</button>
-            </div>
+            <label for="nome">Nome:</label>
+            <input type="texto" name="nome_usuario" id="nome">
+
+            <label for="email">E-mail:</label>
+            <input type="email" name="email_usuario" id="email">
+
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem_usuario" id="mensagem"></textarea>
+
+            <input type="submit" value="Enviar" class="button">
         </form>
     </div>
-
 
 </body>
 

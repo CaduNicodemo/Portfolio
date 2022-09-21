@@ -1,7 +1,7 @@
 form {
     /* Centralizar o formulário na pagina */
     margin: 0 auto;
-    width: 400px;
+    width: 40vw;
     /* Ver o esboço do formulário */
     padding: 0.5em;
     border: 1px solid #CCC;
@@ -16,7 +16,9 @@ label {
     /* Para garantir que todos os rótulos tenham o mesmo tamanho e estejam devidamente alinhados*/
     display: inline-block;
     width: 90px;
-    text-align: right;
+    text-align: left;
+    padding: 1em 0;
+    margin-left: 1.5vw;
 }
 
 input,
@@ -26,10 +28,13 @@ Para garantir que todos os campos de texto tenham as mesmas configurações de f
 Por padrão, as áreas de texto possuem a mesma fonte */
     font: 1em sans-serif;
     /* Para dar o mesmo tamanho a todos os campos de texto*/
-    width: 300px;
+    width: 35vw;
     box-sizing: border-box;
     /* Para harmonizar o aspecto e a sensação da borda do campo de texto */
     border: 1px solid #999;
+    display: block;
+    text-align: center;
+    margin-left: 1.5vw;
 }
 
 input:focus,
@@ -47,7 +52,8 @@ textarea {
 
 .button {
     /* Para posicionar os botões na mesma posição dos campos de texto */
-    padding-left: 90px;
+    margin: 1em 0;
+    margin-left: 1.5vw;
     /* mesmo tamanho que os elementos do rótulo */
 }
 

@@ -45,6 +45,13 @@ header {
     align-items: center;
 }
 
+.header__contato {
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .pagina {
     height: 25vh;
     display: flex;
@@ -99,7 +106,6 @@ a:hover {
 
 .site-subtitle {
     font-size: 30px;
-    margin-top: 5em;
 }
 
 .subpage-header {
