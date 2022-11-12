@@ -1,43 +1,15 @@
 * {
     box-sizing: border-box;
+    --background-mobile: rgb(6, 6, 68);
+    --background-desktop: rgb(30, 0, 60);
 }
 
 body {
-    background-image: url('../img/fundo300.png');
-    background-size: auto 100vh;
+    background-color: var(--background-desktop);
     font-family: Arial;
     height: 100vh;
-    font-size: 12px;
-}
-
-@media (min-width: 400px) {
-    body {
-        font-size: 14px;
-        background-size: cover;
-    }
-}
-
-@media (min-width: 600px) {
-    body {
-        font-size: 18px;
-        background-image: url('../img/fundo600.png');
-        background-size: cover;
-    }
-    .title {
-        display: block;
-    }
-}
-
-@media (min-width: 1200px) {
-    body {
-        font-size: 20px;
-        background-image: url('../img/fundo1200.png');
-        background-size: cover;
-    }
-    .title {
-        display: flex;
-        align-items: center;
-    }
+    font-size: 24px;
+    color: white;
 }
 
 header {
@@ -62,7 +34,7 @@ header {
 }
 
 .menu {
-    background-color: white;
+    background-color: var(--background-desktop);
     position: fixed;
     width: 100vw;
     top: 0;
@@ -70,26 +42,42 @@ header {
 
 .menu ul {
     display: flex;
+    height: 10vh;
     justify-content: space-around;
 }
 
-.menu li {
-    list-style: none;
+.menu ul {
+    align-items: center;
 }
 
 .menu a {
     display: block;
-    padding: 10px 20px;
+    margin: auto;
     font-family: 'Comfortaa', cursive;
+    font-size: 2em;
+    color: teal;
 }
 
 a {
+    display: block;
+    margin: auto;
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.5em;
     color: teal;
-    text-decoration: none;
+    padding: 0.5em;
+}
+
+a p {
+    padding-top: .5em;
 }
 
 a:hover {
     text-decoration: underline;
+}
+
+.title {
+    position: absolute;
+    top: 10vh;
 }
 
 .site-subtitle,
@@ -106,8 +94,16 @@ a:hover {
     font-family: 'Rock Salt', cursive;
 }
 
+.subtitle {
+    font-size: 2em;
+    margin: -2em;
+}
+
 .site-subtitle {
-    font-size: 30px;
+    font-size: 1.5em;
+    position: fixed;
+    top: 10vh;
+    font-family: 'Comfortaa', cursive;
 }
 
 .subpage-header {
@@ -131,13 +127,12 @@ a:hover {
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
     font-weight: 900;
-    display: inline-flex;
+    display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
     padding: 10px;
-    align-content: center;
 }
 
 .jogos__item {
@@ -146,7 +141,7 @@ a:hover {
     text-align: center;
 }
 
-.projetos__lista {
+.sites__lista {
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
     font-weight: 900;
@@ -154,18 +149,18 @@ a:hover {
     margin-left: 5vw;
 }
 
-.projetos__item {
+.sites__item {
     text-align: center;
     max-width: 40vw;
 }
 
-.projetos__img {
+.sites__img {
     max-height: 30vh;
-    padding: 0 1em;
+    padding: 0.25em;
     max-width: 15vw;
 }
 
-.projetos__titulo {
+.sites__titulo {
     padding: 0.5em;
     font-size: 24px;
     text-transform: uppercase;
@@ -180,4 +175,21 @@ a:hover {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 1.5em;
+}
+
+.tela-alvo {
+    border: 1px solid teal
+}
+
+.telaJogo {
+    text-align: center;
+    padding: 1em;
+}
+
+#placar {
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 0.5em;
+    margin: 0.5em;
 }

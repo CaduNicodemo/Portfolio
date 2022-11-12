@@ -7,6 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
     <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/mobile.css">
+
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&family=Rock+Salt&display=swap');
     </style>
@@ -18,17 +20,21 @@
         <nav class="menu">
             <ul>
                 <li><a href="index.html">Sobre</a></li>
-                <li><a href="projetos.html">Projetos</a></li>
+                <li><a href="apps.html">Apps</a></li>
+                <li><a href="jogos.html">Jogos</a></li>
+                <li><a href="sites.html">Sites</a></li>
                 <li><a href="contato.html">Contato</a></li>
             </ul>
         </nav>
         <h2 class="site-subtitle">Tiro ao alvo!</h2>
     </header>
-    <canvas width="950" height="650"></canvas>
+    <p id="placar">Ainda não acertou!</p>
+    <canvas class="telaJogo tela-alvo" width="950" height="650"></canvas>
 
     <script>
         var tela = document.querySelector('canvas');
         var pincel = tela.getContext('2d');
+
 
         pincel.fillStyle = 'black';
         pincel.fillRect(0, 0, 950, 650);
@@ -83,8 +89,9 @@
                 (y > yAleatorio - raio) &&
                 (y < yAleatorio + raio)) {
 
-                alert("Acertou!");
-
+                var placar = document.getElementById('placar');
+                placar.innerHTML = `Em cheio!`;
+                return placar;
             }
         }
 

@@ -1,0 +1,13 @@
+@media (min-width: 1200px) {
+    body {
+        background-color: var(--background-mobile);
+    }
+    .menu {
+        background-color: var(--background-mobile);
+    }
+    .tela-alvo {
+        position: fixed;
+        left: 16%;
+        border: 1px solid teal
+    }
+}
