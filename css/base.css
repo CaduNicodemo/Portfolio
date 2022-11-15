@@ -193,3 +193,22 @@ a:hover {
     padding: 0.5em;
     margin: 0.5em;
 }
+
+.apps__img {
+    max-height: 30vh;
+    padding: 0.25em;
+    max-width: 15vw;
+}
+
+.apps__lista {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+    font-weight: 900;
+    text-align: center;
+    margin-left: 5vw;
+}
+
+.apps__item {
+    text-align: center;
+    max-width: 40vw;
+}
