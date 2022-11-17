@@ -8,9 +8,13 @@
     .menu a {
         font-size: 1em;
     }
+    #placar {
+        margin-top: 1em;
+    }
     .tela-alvo {
-        position: fixed;
-        left: 16%;
+        text-align: center;
+        margin-left: 3.5vw;
+        margin-right: 3.5vw;
         border: 1px solid teal
     }
 }

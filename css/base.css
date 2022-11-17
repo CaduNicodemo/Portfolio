@@ -177,10 +177,6 @@ a:hover {
     gap: 1.5em;
 }
 
-.tela-alvo {
-    border: 1px solid teal
-}
-
 .telaJogo {
     text-align: center;
     padding: 1em;
@@ -211,4 +207,11 @@ a:hover {
 .apps__item {
     text-align: center;
     max-width: 40vw;
+}
+
+.tela-alvo {
+    text-align: center;
+    margin-left: 12.5vw;
+    margin-right: 10vw;
+    border: 1px solid teal
 }
