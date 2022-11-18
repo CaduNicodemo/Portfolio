@@ -123,30 +123,23 @@ a:hover {
     padding: 20px;
 }
 
-.jogos__lista {
+.jogos__lista,
+.sites__lista,
+.apps__lista {
     font-family: 'Comfortaa', cursive;
     font-size: 20px;
     font-weight: 900;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: baseline;
     padding: 10px;
+    text-align: center;
+    margin-left: 5vw;
 }
 
 .jogos__item {
     margin: 1em;
     padding: 1em;
     text-align: center;
-}
-
-.sites__lista {
-    font-family: 'Comfortaa', cursive;
-    font-size: 20px;
-    font-weight: 900;
-    text-align: center;
-    margin-left: 5vw;
 }
 
 .sites__item {
@@ -194,14 +187,6 @@ a:hover {
     max-height: 30vh;
     padding: 0.25em;
     max-width: 15vw;
-}
-
-.apps__lista {
-    font-family: 'Comfortaa', cursive;
-    font-size: 20px;
-    font-weight: 900;
-    text-align: center;
-    margin-left: 5vw;
 }
 
 .apps__item {
